@@ -1,6 +1,6 @@
 import express from 'express';
 import * as bodyParser from 'body-parser';
-import Auth from './infra/auth';
+
 import cors from 'cors';
 import compression from 'compression';
 
@@ -39,10 +39,12 @@ class StartUp {
 
   routes() {
     this.app.route('/').get((req, res) => {
-      res.send({ versão: '0.0.1' });
+      res.send({
+        versão:
+          '0.0.1 - construído por Victor Gutierrez e idealizado por Tiago Adriano',
+      });
     });
 
-    this.app.use(Auth.validate); //comitar com e depois remover para produção.
     this.app.route('/uploads').post(uploads.single('sentFile'), (req, res) => {
       try {
         res.send('Arquivo enviado com sucesso');
