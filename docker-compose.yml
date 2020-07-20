@@ -1,0 +1,15 @@
+version: "3"
+services:
+  api_dev:
+    image: vggutierrez/apinews
+    ports:
+      - "5000:8535"
+    links:
+      - link-db
+  link-db:
+    image: tutum/mongodb
+    ports:
+      - "27917:27917"
+      - "28917:28917"
+    environment:
+      - AUTH=no
