@@ -1,7 +1,7 @@
 # News API
 
 Esse é um projeto de Backend feito para um front-end de aplicação de notícias.
-O projeto é baseado na arquitetura MVC.
+O projeto é baseado na arquitetura MVC. Meu primeiro utilizando Base de dados não relacionais, Redis, Docker, JWT, MongoDB e Azure.
 
 ## Ferramentas:
 
