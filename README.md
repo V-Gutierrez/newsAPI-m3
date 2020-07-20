@@ -1,6 +1,4 @@
-### News API
-
-## Stack
+# News API
 
 Esse é um projeto de Backend feito para um front-end de aplicação de notícias.
 O projeto é baseado na arquitetura MVC.
