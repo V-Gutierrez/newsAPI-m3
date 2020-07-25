@@ -6,6 +6,7 @@ O projeto é baseado na arquitetura MVC. Meu primeiro utilizando Base de dados n
 ## Ferramentas:
 
 - TypeScript
+- Node.js
 - MongoDB
 - Express
 - JWT
