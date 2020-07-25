@@ -17,7 +17,7 @@ O projeto é baseado na arquitetura MVC. Meu primeiro utilizando Base de dados n
 ## Sobre
 
 Esse foi um projeto de Backend que utilizei para treinar casos de interação entre back-end e base de dados.
-Também aprendi sobre Redis, utilização do Docker HUB, bases de dados não relacionais e Deploy na Microsoft Azure por meio do Docker-Compose.
+Também aprendi sobre Redis, utilização do Docker e Docker HUB, conceitos sobre bases de dados não relacionais, Deploy na Microsoft Azure por meio do Docker-Compose.
 
 
 
